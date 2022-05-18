@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Righteous&family=Roboto&family=Sarala:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #222831;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    color: lightgreen;
+    flex-wrap: wrap;
+}
+.boxperfil {
+    background: #393E46 ;
+    width: 280px;
+    height: 520px;
+    border-radius: 30px;
+    padding: 4rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    margin-right: 30px;
+}
+.photo-profile {
+    margin-bottom: 30px;
+}
+.tittle {
+    font-size: 36px;
+    font-weight: normal;
+}
+.boxperfil span {
+    font-size: 24px;
+}
+.boxperfil p {
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style: none;
+}
+li a {
+    font-size: 30px;
+    padding: 5px;
+    color: lightgreen;
+}
+.profile-sobre {
+    display: flex;
+    background: #393E46;
+    height: 520px;
+    width: 700px;
+    padding: 4rem;
+    border-radius: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+.frase {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4rem;
+}
