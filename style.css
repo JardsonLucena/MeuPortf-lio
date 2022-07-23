@@ -22,7 +22,7 @@ body {
     height: 520px;
     border-radius: 30px;
     padding: 4rem;
-    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.15);
     text-align: center;
     margin-right: 30px;
 }
